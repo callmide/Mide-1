@@ -1,3 +1,18 @@
+*
+*::before
+*::after
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background: black;
+    color: white;
+}
 .Nav {
     background: image(C:\Users\dell pc\Desktop\Netflix.Project Stutern\Images\NG-en-20221114-popsignuptwoweeks-perspective_alpha_website_large.jpg);
 }
+
