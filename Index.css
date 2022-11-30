@@ -1,0 +1,112 @@
+*
+*::before
+*::after
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "poppins" , sans-serif;
+}
+
+body{
+    background: black;
+    color: white;
+}
+
+/* h1,
+h2,
+h3,
+h4,
+h5,
+h6,{
+    font-weight: 500;
+} */
+
+input,
+button{
+    border: none;
+}
+
+button{
+    font-weight: 400;
+    white-space: nowrap;
+    cursor: pointer;
+    background: red;
+}
+
+.SignIn-Btn{
+    font-size: 1rem;
+    border-radius: 5px;
+    padding: 8px 16px;
+}
+
+Header{
+    z-index: 1;
+    height: 100px;
+}
+Header img{
+    width: 168px;
+}
+
+.Header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 88px;
+    height: 100px;
+    margin: auto;
+}
+
+.TV-Image{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    margin: auto;
+}
+
+.Download{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 88px;
+    height: 100px;
+    margin: auto;
+}
+
+.Unlimited{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 88px;
+    height: 100px;
+    margin: auto;
+}
+
+.Kids{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 88px;
+    height: 100px;
+    margin: auto;
+}
+
+.Footer-Wrapper{
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    width: 88px;
+    height: 100px;
+    margin: auto;
+}
+
+.List-Wrapper{
+    display: flex;
+}
+
+.Footer-List{
+    list-style: none;
+    width: 48%;
+}
