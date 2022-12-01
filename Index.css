@@ -3,63 +3,82 @@
 *::after
 {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
     font-family: "poppins" , sans-serif; 
-    background-color: black;
 }
 
 body{
     background-color: black;
     color: white;
+    margin: 0 8px;
 }
 
-/* h1,
-h2,
-h3,
-h4,
-h5,
-h6,{
-    font-weight: 500;
-} */
-
-input,
+/* input,
 button{
     border: none;
+} */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    /* align-content: center; */
+    width: 32px auto;
+    margin: 0;
+    /* padding: 16px 32px; */
+    /* background-color: blue; */
 }
 
-button{
-    font-weight: 400;
-    white-space: nowrap;
-    cursor: pointer;
-    background: red;
+.header-img{
+    width: 0 12px;
+    align-self: center;
 }
+
 
 .SignIn-Btn{
-    font-size: 1rem;
+    font-size: 12px;
+    border-style: none;
+    border: 1px;
     border-radius: 5px;
-    padding: 8px 16px;
-}
-
-Header{
-    z-index: 1;
-    height: 100px;
-}
-Header img{
-    width: 168px;
+    background-color: red;
+    color: white;
+    width: 2px 32px;
 }
 
 .Unlimited-Email{
     display: flex;
+    width: 0 24px;
 }
 
 .unlimited{
     display: block;
     text-align: center;
+    width: 0 64px;
+    align-content: center;
+    align-self: center;
+    justify-self: center;
 }
+
+.Kids{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 0 150px;
+    margin: auto;
+}
+
+.Img-Kids{
+    width: 0 16px;
+}
+
+.P-Kids{
+    border: 1px solid black;
+    width: 12px 24px;
+}
+
 .Email{
     display: flex;
+    width: max-content;
 }
+
 .Header{
     display: flex;
     align-items: center;
@@ -73,44 +92,42 @@ Header img{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
-    height: 100px;
+    width: 0 16px;
     margin: auto;
+}
+
+.TV{
+    width: 0 16px;
 }
 
 .Download{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 88px;
-    height: 100px;
-    margin: auto;
+    width: 0 16px;
+    margin: 0 4px;
 }
 
 .Unlimited{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 88px;
-    height: 100px;
-    margin: auto;
-}
-
-.Kids{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 88px;
-    height: 100px;
-    margin: auto;
-}
-
-.Footer-Wrapper{
     display: block;
     align-items: center;
     justify-content: space-between;
-    width: 88px;
-    height: 100px;
+    width: 0 16px;
+    margin: auto;
+}
+
+
+
+.Li-Questions{
+    border: 1px solid rgba(112, 108, 108, 0.295);
+    width: 0 25%;
+    margin-top: 8px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    width: 0 24px;
     margin: auto;
 }
 
@@ -118,7 +135,6 @@ Header img{
     display: flex;
 }
 
-.Footer-List{
+li{
     list-style: none;
-    width: 48%;
 }
